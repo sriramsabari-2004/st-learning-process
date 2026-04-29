@@ -1,44 +1,71 @@
-# st-learning-process
-Core Java Concepts for Testing
-1. Object-Oriented Programming (OOP)
-Inheritance, Encapsulation, Polymorphism, Abstraction
+1. Core Technical Questions
+Explain the OSI model and its 7 layers. Which layer adds headers/trailers?
 
-Essential for designing reusable test frameworks.
+Difference between TCP and UDP; when would you use each?
 
-Example: Creating a BaseTest class in Selenium that child test classes can extend.
+What is DHCP? Define scopes and superscopes.
 
-Helps organize test cases logically and reduces duplication.
+What is a zone-based firewall and how does it differ from traditional firewalls?
 
-2. Collections Framework
-List, Set, Map, ArrayList, HashMap
+Define HTTPS protocol and its default port.
 
-Used to store test data, locators, or multiple WebElements.
+Explain VPN and how it connects remote offices.
 
-Example: Storing multiple dropdown values in a List for validation.
+What is internetworking and which devices enable it (routers, gateways)?
 
-3. Exception Handling
-try-catch-finally, throw, throws
+2. Applied Troubleshooting & Scenario Questions
+How would you handle a network outage during peak hours?
 
-Critical for handling runtime errors in automation scripts.
+Walk me through diagnosing slow network performance.
 
-Example: Catching NoSuchElementException in Selenium to avoid test crashes.
+If a user cannot access the internet but can ping the gateway, what steps do you take?
 
-4. Strings and Data Types
-String handling methods like contains(), equals(), split()
+How do you secure a network against unauthorized access?
 
-Frequently used for validating UI text, parsing responses, or handling input data.
+Describe a time you had to communicate technical issues to non-technical stakeholders.
 
-5. Control Flow & Loops
-if-else, switch, for, while
+3. Practical Knowledge Checks
+Which LAN cable types are commonly used (Cat5 vs Cat6)?
 
-Used to build test logic and iterate through multiple test cases or data sets.
+What is a cross cable and when is it used?
 
-6. Methods & Constructors
-Enable code reusability in test frameworks.
+Maximum length of a LAN cable before signal loss occurs? (~100m, but degradation after 80m).
+-------------------------------------------------------------
 
-Example: Creating a reusable login() method for multiple test cases.
+Networks Commonly Used in System Engineer Roles
+LAN (Local Area Network)
 
-7. Integration with Testing Tools
-Java integrates seamlessly with JUnit, TestNG, Selenium, RestAssured.
+Connects computers and servers within an office or data center.
 
-Supports CI/CD pipelines via Maven, Jenkins, and Gradle.
+You’ll manage switches, routers, and cabling.
+
+WAN (Wide Area Network)
+
+Connects multiple branch offices or remote sites.
+
+Often involves VPNs, leased lines, MPLS, or SD-WAN.
+
+WLAN (Wireless LAN)
+
+Wi-Fi networks for users and devices.
+
+Requires configuration of access points and security policies.
+
+VPN (Virtual Private Network)
+
+Securely connects remote employees or offices to the corporate network.
+
+Essential for hybrid work setups.
+
+Cloud Networks
+
+Virtual networks in AWS, Azure, or GCP.
+
+System engineers often configure VPCs, subnets, and firewalls.
+
+Enterprise Networks (Active Directory + Domain Services)
+
+Used for authentication, user management, and centralized policies.
+
+Critical for system administration tasks.
+
